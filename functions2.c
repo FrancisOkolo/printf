@@ -9,6 +9,8 @@
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifierReturn: Number of chars printed.
+ * print_pointer - Prints the value of a pointer variable
+ * Return: Number of chars printed.
  */
 int print_pointer(va_list types, char buffer[],
 		int flags, int width, int precision, int size)
@@ -60,7 +62,9 @@ int print_pointer(va_list types, char buffer[],
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
+ * print_pointer - Prints the value of a pointer variable
  * Return: Number of chars printed
+ *
  */
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
